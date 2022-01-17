@@ -6,9 +6,17 @@
 
 </head>
 <body>
+<label>Foot</label>
+<input id="inputFoot" type="number" placeholder="Foot"
+       oninput="meterConverter(this.value)">
+</p>
+<p>Meter: <span id="outputMeter"></span></p>
 
-
-
+<label>Meter</label>
+<input id="inputMeter" type="number" placeholder="Meter"
+       oninput="footConverter(this.value)">
+</p>
+<p>Foot: <span id="outputFoot"></span></p>
 
 <script src="js.js"></script>
 </body>
